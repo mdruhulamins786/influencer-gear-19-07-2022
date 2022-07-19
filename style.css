@@ -23,6 +23,12 @@ body {
   justify-content: space-between;
 }
 
+.logo > h3 {
+  font-size: 35px;
+  letter-spacing: 1px;
+  color: #3a3a3a;
+}
+
 .nav {
   display: flex;
   align-items: center;
@@ -41,14 +47,14 @@ body {
   margin-left: 35px;
   font-weight: 600;
 
-  color: black;
-  font-size: 14px;
+  color: #3a3a3a;
+  font-size: 20px;
 }
 
 .nav-icon {
-  margin-top: 5px;
-  font-size: 22px;
-  color: black;
+  margin-top: 0px;
+  font-size: 35px;
+  color: #3a3a3a;
 }
 
 /*----------
@@ -62,7 +68,7 @@ body {
 
 .main-left {
   width: 50%;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .main-left > h1 {
@@ -197,13 +203,13 @@ body {
 
 .future-right > h1 {
   font-size: 40px;
-  color:#3a3a3a;
+  color: #3a3a3a;
 }
 
-.future-right > p{
+.future-right > p {
   font-size: 20px;
   font-weight: 600;
-  color:#3a3a3a;
+  color: #3a3a3a;
 
   margin: 15px 0;
 }
