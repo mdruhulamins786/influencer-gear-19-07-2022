@@ -38,7 +38,7 @@ body {
 
 .nav > ul > li > a {
   text-decoration: none;
-  margin-left: 15px;
+  margin-left: 35px;
   font-weight: 600;
 
   color: black;
@@ -46,7 +46,7 @@ body {
 }
 
 .nav-icon {
-  margin-left: 15px;
+  margin-top: 5px;
   font-size: 22px;
   color: black;
 }
@@ -170,6 +170,60 @@ body {
 
 .fas.filled {
   color: orange;
+}
+
+/* -----------
+                main section-4 start
+                                     -----------> */
+
+.future-products {
+  display: flex;
+  margin-top: 100px;
+}
+
+.future-left {
+  width: 30%;
+}
+
+.future-left img {
+  width: 100%;
+}
+
+.future-right {
+  width: 70%;
+  margin-left: 100px;
+  margin-top: 25px;
+}
+
+.future-right > h1 {
+  font-size: 40px;
+  color:#3a3a3a;
+}
+
+.future-right > p{
+  font-size: 20px;
+  font-weight: 600;
+  color:#3a3a3a;
+
+  margin: 15px 0;
+}
+
+.future-right > a {
+  display: inline-block;
+  padding: 10px 24px;
+  background: #e02c6d;
+  margin-top: 25px;
+
+  color: white;
+  font-weight: 600;
+
+  letter-spacing: 1px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.future-right .fas {
+  margin-left: 15px;
 }
 
 /* -----------
